@@ -8,12 +8,12 @@
   <div class="container">
     <div class="brand-bar-container">
       <div class="brand-logo">
-        <a href="http://www.colorado.edu"><img src="<?php print $logo; ?>" alt="University of Colorado Boulder" /></a>
+        <a href="http://www.ohioreimagined.org"><img src="<?php print $logo; ?>" alt="Ashland City Schools Distritx" /></a>
       </div>
       <div class="brand-links">
       </div>
       <div class="search-toggle-wrapper">
-        <a href="https://www.colorado.edu/search" id="search-toggle" class="search-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="search" aria-label="Search"><i class="fa fa-search fa-fw"></i><span class="element-invisible">Search </span></a>
+        <a href="https://www.ohioreimagined.org/search" id="search-toggle" class="search-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="search" aria-label="Search"><i class="fa fa-search fa-fw"></i><span class="element-invisible">Search </span></a>
       </div>
     </div>
   </div>
