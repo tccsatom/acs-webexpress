@@ -136,7 +136,7 @@ function ucb_preprocess_html(&$vars) {
   }
   // Build title array
   // Add Campus name to title
-  $slogan_title = variable_get('site_slogan_title', 'University of Colorado Boulder');
+  $slogan_title = variable_get('site_slogan_title', 'Ashland City Schools District');
   $vars['head_title_array']['slogan'] = $slogan_title;
   if (isset($vars['head_title']) && !drupal_is_front_page()) {
     $vars['head_title'] .= ' | ' . $slogan_title;
@@ -190,11 +190,11 @@ function ucb_preprocess_html(&$vars) {
 function ucb_preprocess_page(&$vars) {
   global $base_url;
   // Set site slogan so it can't be overriden
-  $slogan_display = variable_get('site_slogan_display', 'University of Colorado <strong>Boulder</strong>');
+  $slogan_display = variable_get('site_slogan_display', 'Ashland City Schools <strong>District</strong>');
   $vars['site_slogan'] = $slogan_display;
   $vars['site_name'] = variable_get('site_name', '');
   // add print logo
-  $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="University of Colorado Boulder" />';
+  $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="Ashland City Schools District" />';
   // hide title on homepage
   if($vars['is_front'] == TRUE) {
     $vars['title_hidden'] = TRUE;
@@ -404,16 +404,16 @@ function ucb_preprocess_region(&$vars) {
   switch ($vars['region']) {
     case 'branding':
       $vars['logo'] = theme_get_setting('logo');
-      $vars['svg_logo'] = $base_url . '/' . drupal_get_path('theme', 'ucb') . '/images/cu-logo.svg';
+      $vars['svg_logo'] = $base_url . '/' . drupal_get_path('theme', 'ucb') . '/images/ashc-header.svg';
       $vars['front_page'] = url('<front>');
       if (variable_get('site_name_2', '')) {
         $vars['site_name'] = '<span class="site-name-two-lines">' . variable_get('site_name_1', NULL) . '<br />' . variable_get('site_name_2', NULL) . '</span>';
       } else {
         $vars['site_name'] = variable_get('site_name', NULL);
       }
-      $slogan_display = variable_get('site_slogan_display', 'University of Colorado <strong>Boulder</strong>');
+      $slogan_display = variable_get('site_slogan_display', 'Ashland City Schools <strong>District</strong>');
       $vars['site_slogan'] = $slogan_display;
-      $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="University of Colorado Boulder" />';
+      $vars['print_logo'] = '<img src="' . $base_url . '/' . drupal_get_path('theme','ucb') . '/images/print-logo.png" alt="Ashland City Schools District" />';
       break;
     case 'secondary_menu':
       $vars['secondary_menu'] = menu_secondary_menu();
