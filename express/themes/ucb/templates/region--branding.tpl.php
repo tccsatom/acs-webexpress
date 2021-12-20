@@ -8,7 +8,7 @@
   <div class="container">
     <div class="brand-bar-container">
       <div class="brand-logo">
-        <a href="http://www.ohioreimagined.org"><img src="<?php print $logo; ?>" alt="Ashland City Schools Distritx" /></a>
+        <a href="http://www.ohioreimagined.org"><img src="<?php print $logo; ?>" alt="Ashland City Schools District" /></a>
       </div>
       <div class="brand-links">
       </div>
