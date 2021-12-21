@@ -11,9 +11,9 @@
  * Mirrors changes cu_ldap makes without the overhead of LDAP.
  */
 function cu_local_users_form_user_login_alter(&$form, &$form_state) {
-  $form['name']['#title'] = t('CU Login Name');
+  $form['name']['#title'] = t('User Name');
   $form['name']['#description'] = '';
-  $form['pass']['#title'] = t('IdentiKey Password');
+  $form['pass']['#title'] = t('Password');
   $form['pass']['#description'] = '';
 }
 
