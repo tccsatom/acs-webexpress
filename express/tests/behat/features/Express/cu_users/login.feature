@@ -7,8 +7,8 @@ Feature: Authentication tasks
   Scenario: Login Error messages - Empty form
     Given I am on "user"
     When I press "Log in"
-    Then I should see "CU Login Name field is required."
-    Then I should see "IdentiKey Password field is required."
+    Then I should see "User Name field is required."
+    Then I should see "Password field is required."
     And I should not see "Sorry, unrecognized username or password"
     And I should not see "Unable to send e-mail. Contact the site administrator if the problem persists"
 
@@ -16,17 +16,17 @@ Feature: Authentication tasks
     Given I am on "user"
     And I fill in "edit-name" with "My User Name"
     When I press "Log in"
-    Then I should see "IdentiKey Password field is required."
+    Then I should see "Password field is required."
     Then I should see "Sorry, unrecognized username or password"
-    And I should not see "CU Login Name field is required."
+    And I should not see "User Name field is required."
     And I should not see "Unable to send e-mail. Contact the site administrator if the problem persists"
 
   Scenario: Login Error messages - Partial form Password
     Given I am on "user"
    And I fill in "edit-pass" with "My IdentiKey Password"
     When I press "Log in"
-    Then I should see "CU Login Name field is required."
-    And I should not see "IdentiKey Password field is required."
+    Then I should see "User Name field is required."
+    And I should not see "Password field is required."
     And I should not see "Unable to send e-mail. Contact the site administrator if the problem persists"
 
   @login
@@ -36,7 +36,7 @@ Feature: Authentication tasks
     And I fill in "edit-pass" with "My IdentiKey Password"
     When I press "Log in"
     Then I should see "Sorry, unrecognized username or password."
-    And I should not see "IdentiKey Password field is required."
-    And I should not see "CU Login Name field is required."
+    And I should not see "Password field is required."
+    And I should not see "User Name field is required."
     And I should not see "Unable to send e-mail. Contact the site administrator if the problem persists"
 
