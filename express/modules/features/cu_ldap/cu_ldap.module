@@ -21,9 +21,9 @@ function cu_ldap_form_alter(&$form, &$form_state, $form_id) {
         $form['actions']['submit']['#attributes']['disabled'] = 'disabled';
       }
     case 'user_login_block':
-      $form['name']['#title'] = t('CU Login Name');
+      $form['name']['#title'] = t('User Name');
       $form['name']['#description'] = '';
-      $form['pass']['#title'] = t('IdentiKey Password');
+      $form['pass']['#title'] = t('Password');
       $form['pass']['#description'] = '';
       $form['#validate'][] = 'cu_ldap_user_login_validate';
     case 'user_profile_form':
