@@ -1259,7 +1259,7 @@ hr { margin: 0 0 20px 0; padding: 0; border: none; height: 1px; background: rgba
 .block-menu ul.menu ul.menu ul.menu ul.menu ul.menu a { padding-left: 40px; }
 .block-menu ul.menu ul.menu ul.menu ul.menu ul.menu ul.menu a { padding-left: 50px; }
 
-.block-menu ul.menu a { display: block; padding: 10px 0; border-bottom: 1px solid rgba(128, 128, 128, 0.333); margin-bottom: -1px; }
+.block-menu ul.menu a { display: block; padding: 10px !important; border: 1px solid rgba(128, 128, 128, 0.333) !important; font-weight: 600;}
 .block-menu ul.menu a i.fa { color: gray; float: left; }
 .block-menu ul.menu a span { overflow: hidden; }
 
