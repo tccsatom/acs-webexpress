@@ -86,3 +86,9 @@ ul.action-menu a:hover, ul.action-menu a.active, ul.action-menu a.active-trail {
     color: #F76902 !important;
     font-size: 20pt !important;
     }
+
+/* Remove Google Reviews from Embedded Maps */
+
+.gm-style .review-box .rating-full-star .rating-star {
+    display: none !important;
+}
