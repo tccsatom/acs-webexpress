@@ -362,7 +362,7 @@ table.calendar-legend tr.even .stripe {
 .calendar-calendar td .inner div.calendar div,
 .calendar-calendar td .inner div.calendar div a {
   border: none;
-  background: #ffc;
+  background: #none;
   padding: 0 2px;
 }
 .calendar-calendar td .inner div.calendar div.calendar-more,
