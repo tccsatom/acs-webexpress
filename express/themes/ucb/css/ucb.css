@@ -2266,6 +2266,7 @@ a.mega-menu-link:after { content: '\f107'; font-family: "Font Awesome 5 Free", "
   font-style: normal;
   padding-bottom: 20px;
   font-weight: bold;
+  color: #ff6200;
 }
 
 #cboxLoadedContent {
@@ -2273,14 +2274,19 @@ a.mega-menu-link:after { content: '\f107'; font-family: "Font Awesome 5 Free", "
   text-transform: uppercase;
   display: block;
   float: none;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 10px;
+  font-size: 16px;
   font-style: normal;
   padding-top: 10px;
 }
 
 #cboxLoadedContent span.date-display-single {
   display: block;
+  font-weight: 600 !important;
+}
+
+#cboxLoadedContent {
+    text-align: center;
 }
 
 /*# sourceMappingURL=ucb.css.map */
