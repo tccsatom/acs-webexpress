@@ -2256,4 +2256,31 @@ a.mega-menu-link:after { content: '\f107'; font-family: "Font Awesome 5 Free", "
 
 .node-unpublished #main-content-wrapper { background: #FFEBEE; }
 
+/* Colorbox for Calendar */
+
+#cboxLoadedContent span.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  display: block;
+  float: none;
+  font-style: normal;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#cboxLoadedContent {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  float: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+#cboxLoadedContent span.date-display-single {
+  display: block;
+}
+
 /*# sourceMappingURL=ucb.css.map */
