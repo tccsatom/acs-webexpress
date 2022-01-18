@@ -1432,8 +1432,8 @@ strong { font-weight: bold; }
 
 .exbd-heading-style-supersize-bold > .block-inner > .exbd-block-title > .block-title { font-weight: 750; font-family: "Neue Helvetica W05", "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-.breadcrumb { font-size: 85%; margin: 0; padding: 0; }
-@media screen and (max-width: 768px) { .breadcrumb { font-size: 75%; } }
+.breadcrumb { display: none; }
+@media screen and (max-width: 768px) { .breadcrumb { display: none; } }
 
 em { font-style: italic; }
 
@@ -1569,7 +1569,7 @@ nav ol.breadcrumbs li:last-child:after { content: none; padding: 0; }
 .background-color-gray-light.color-border { border: 1px solid rgba(187, 187, 187, 0.4); }
 
 .background-gray-light, .ucb-colors .background-gray-light, .nested-colors .background-gray-light, .exbd-block.exbd-style-gray-light, .exbd-block .exbd-block.exbd-style-gray-light, .exbd-block .cu-box.background-gray-light { background-color: #EEEEEE; color: #111111; }
-.background-gray-light a:link, .background-gray-light a:visited, .ucb-colors .background-gray-light a:link, .ucb-colors .background-gray-light a:visited, .nested-colors .background-gray-light a:link, .nested-colors .background-gray-light a:visited, .exbd-block.exbd-style-gray-light a:link, .exbd-block.exbd-style-gray-light a:visited, .exbd-block .exbd-block.exbd-style-gray-light a:link, .exbd-block .exbd-block.exbd-style-gray-light a:visited, .exbd-block .cu-box.background-gray-light a:link, .exbd-block .cu-box.background-gray-light a:visited { color: #01579B; }
+.background-gray-light a:link, .background-gray-light a:visited, .ucb-colors .background-gray-light a:link, .ucb-colors .background-gray-light a:visited, .nested-colors .background-gray-light a:link, .nested-colors .background-gray-light a:visited, .exbd-block.exbd-style-gray-light a:link, .exbd-block.exbd-style-gray-light a:visited, .exbd-block .exbd-block.exbd-style-gray-light a:link, .exbd-block .exbd-block.exbd-style-gray-light a:visited, .exbd-block .cu-box.background-gray-light a:link, .exbd-block .cu-box.background-gray-light a:visited { color: #ff6200; }
 .background-gray-light a:hover, .background-gray-light a:active, .background-gray-light a:focus, .ucb-colors .background-gray-light a:hover, .ucb-colors .background-gray-light a:active, .ucb-colors .background-gray-light a:focus, .nested-colors .background-gray-light a:hover, .nested-colors .background-gray-light a:active, .nested-colors .background-gray-light a:focus, .exbd-block.exbd-style-gray-light a:hover, .exbd-block.exbd-style-gray-light a:active, .exbd-block.exbd-style-gray-light a:focus, .exbd-block .exbd-block.exbd-style-gray-light a:hover, .exbd-block .exbd-block.exbd-style-gray-light a:active, .exbd-block .exbd-block.exbd-style-gray-light a:focus, .exbd-block .cu-box.background-gray-light a:hover, .exbd-block .cu-box.background-gray-light a:active, .exbd-block .cu-box.background-gray-light a:focus { color: #B71C1C; }
 .background-gray-light.color-border, .ucb-colors .background-gray-light.color-border, .nested-colors .background-gray-light.color-border, .exbd-block.exbd-style-gray-light.color-border, .exbd-block .exbd-block.exbd-style-gray-light.color-border, .exbd-block .cu-box.background-gray-light.color-border { border: 1px solid rgba(187, 187, 187, 0.4); }
 .background-gray-light.background-transparent, .ucb-colors .background-gray-light.background-transparent, .nested-colors .background-gray-light.background-transparent, .exbd-block.exbd-style-gray-light.background-transparent, .exbd-block .exbd-block.exbd-style-gray-light.background-transparent, .exbd-block .cu-box.background-gray-light.background-transparent { background-color: rgba(238, 238, 238, 0.7); }
