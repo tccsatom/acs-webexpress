@@ -82,8 +82,8 @@ body { margin: 0; }
 .brand-bar a:link, .brand-bar a:visited { color: #fff; }
 
 .brand-bar-container { display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; }
-.brand-bar-container .brand-logo img { width: 100%; max-width: 240px; height: auto; display: block; }
-@media screen and (min-width: 768px) { .brand-bar-container .brand-logo img { max-width: 240px; } }
+.brand-bar-container .brand-logo img { width: 100%; max-width: 400px; height: auto; display: block; }
+@media screen and (min-width: 768px) { .brand-bar-container .brand-logo img { max-width: 400px; } }
 
 #header-wrapper { background: #fff; color: #202020; }
 

@@ -65,7 +65,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .brand-bar.brand-bar-color-black a:link, .brand-bar.brand-bar-color-black a:visited { color: #000; }
 
 .brand-bar-container { display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; }
-.brand-bar-container .brand-logo img { width: 100%; max-width: 400px; min-width: 160px; height: auto; display: block; }
+.brand-bar-container .brand-logo img { width: 100%; max-width: 400px; min-width: 350px; height: auto; display: block; }
 @media screen and (min-width: 768px) { .brand-bar-container .brand-logo img { max-width: 400px; } }
 
 .brand-color-white, .brand-bar-reverse, .brand-bar-dark, .brand-bar-black { color: #fff !important; }

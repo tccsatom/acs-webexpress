@@ -46,7 +46,7 @@ a:active { color: #B71C1C; text-decoration-color: rgba(183, 28, 28, 0.65); -webk
 
 .brand-bar-container { display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; }
 .brand-bar-container .brand-logo img { width: 100%; max-width: 200px; min-width: 160px; height: auto; display: block; }
-@media screen and (min-width: 768px) { .brand-bar-container .brand-logo img { max-width: 240px; } }
+@media screen and (min-width: 768px) { .brand-bar-container .brand-logo img { max-width: 350px; } }
 
 .brand-color-white, .brand-bar-reverse, .brand-bar-dark, .brand-bar-black { color: #fff !important; }
 .brand-color-white a:link, .brand-color-white a:visited, .brand-bar-reverse a:link, .brand-bar-reverse a:visited, .brand-bar-dark a:link, .brand-bar-dark a:visited, .brand-bar-black a:link, .brand-bar-black a:visited { color: #fff !important; }

@@ -3,7 +3,7 @@
 body { font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif; font-size: 12pt; margin: 1em; background-color: #fff; line-height: 1.4; }
 
 /* BRANDING */
-.brand-logo img { display: block; width: 240px; height: auto; margin-bottom: 1em; }
+.brand-logo img { display: block; width: 400px; height: auto; margin-bottom: 1em; }
 
 .site-name { display: none; }
 
