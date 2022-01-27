@@ -65,8 +65,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 .brand-bar.brand-bar-color-black a:link, .brand-bar.brand-bar-color-black a:visited { color: #000; }
 
 .brand-bar-container { display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%; }
-.brand-bar-container .brand-logo img { width: 100%; max-width: 400px; min-width: 350px; height: auto; display: block; }
-@media screen and (min-width: 768px) { .brand-bar-container .brand-logo img { max-width: 400px; } }
+.brand-bar-container .brand-logo img { width: 100%; max-width: 300px; min-width: 250px; height: auto; display: block; }
+@media screen and (max-width: 750px) { .brand-bar-container .brand-logo img { max-width: 250px; } }
 
 .brand-color-white, .brand-bar-reverse, .brand-bar-dark, .brand-bar-black { color: #fff !important; }
 .brand-color-white a:link, .brand-color-white a:visited, .brand-bar-reverse a:link, .brand-bar-reverse a:visited, .brand-bar-dark a:link, .brand-bar-dark a:visited, .brand-bar-black a:link, .brand-bar-black a:visited { color: #fff !important; }
@@ -2288,9 +2288,6 @@ a.mega-menu-link:after { content: '\f107'; font-family: "Font Awesome 5 Free", "
 #cboxLoadedContent {
     text-align: center;
 }
-
-/* Formatting for Calendar Block */
-
 
 .date-wrap {
     float: left;
